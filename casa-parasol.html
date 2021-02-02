@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>House of ERA - Casa Parasol</title>
+
+	<!-- Bootstrap -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/ae86af4936.js" crossorigin="anonymous"></script>
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="assets/css/master.css">
+</head>
+
+<body>
+	<div class="navigation navigation--transparent">
+		<ul class="navigation__list">
+			<li class="navigation__item"><a id="portfolio" href="portfolioindex.html"><span>portfolio</span></a>
+			</li>
+			<li class="navigation__item"><a id="about" href="#"><span>about us</span></a></li>
+			<li class="navigation__item"><a id="contact" href="#"><span>contact</span></a></li>
+		</ul>
+	</div>
+	<div class="page-wrapper">
+		<header class="content-parent" id="start">
+			<div class="color-box">
+				<div class="project">
+					<h1 class="project__title">CASA PARASOL</h1>
+					<p class="project__description">Casa Parasol is a unique beach house that blends luxure and comfort
+						with a ritual sense. Inspired by nature, the whole
+						concept flows around its location in beautiful Careyes, Mexico.
+					</p>
+					<p class="project__specs">
+						Type of work: Branding <br>
+						Realization: 2020
+					</p>
+				</div>
+			</div>
+			<div class="col-xs-6 col-xs-offset-6 text-box">
+				<img class="project__image" src="./assets/img/accasa-parasol/cover.jpg">
+			</div>
+		</header>
+		<section class="content-parent" id="intro">
+			<img class="project__content" src="./assets/img/accasa-parasol/img1.jpg">
+			<div class="project__watermark">
+				<img class="" src="./assets/img/accasa-parasol/watermark.png">
+			</div>
+		</section>
+		<section class="content-parent" id="intro">
+			<img class="project__content" src="./assets/img/accasa-parasol/img2.jpg">
+			<div class="project__watermark">
+				<img class="" src="./assets/img/accasa-parasol/watermark.png">
+			</div>
+		</section>
+		<section class="content-parent" id="intro">
+			<img class="project__content" src="./assets/img/accasa-parasol/img3.jpg">
+			<div class="project__watermark">
+				<img class="" src="./assets/img/accasa-parasol/watermark.png">
+			</div>
+		</section>
+	</div>
+
+	<script src="assets/js/hps.js"></script>
+	<script type="text/javascript">
+		var scroller = new HPS('.page-wrapper', {
+			ease: 0.08,
+		});
+
+		window.onload = function () {
+			document.querySelector('.color-box').classList.add('slide');
+		}
+	</script>
+</body>
+
+</html>
